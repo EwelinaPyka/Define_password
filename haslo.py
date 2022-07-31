@@ -19,7 +19,6 @@ while haslo_ok == False:
         if char.isalpha() and char.isupper():
             has_upper = True
             Ile_duzych += 1
-            print('duze litery:',has_upper)
         if char.isalpha() and char.islower():
             has_lower = True
             Ile_malych += 1
