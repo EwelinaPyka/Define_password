@@ -25,6 +25,7 @@ while haslo_ok == False:
         print("Twoje hasło jest wystarczająco złożone")
         print("Ilosc dużych liter:", Ile_duzych)
         print("Ilosc małych liter:", Ile_malych)
+        print("Długosć twojego hasła to:",Ilosc_znakow)
         haslo_ok = True
     else:
         print("Zmien ponizsze rzeczy w Twoim hasle:")
