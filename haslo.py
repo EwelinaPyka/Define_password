@@ -2,16 +2,11 @@ haslo_ok = False
 while haslo_ok == False:
     password = input("Podaj nowe hasło: ")
 
-    print(password)
-
-    for letter in password:
-        print(letter)
-    
+     
     has_lower = False
     has_upper = False
     is_digit = False
     Ilosc_znakow = len(password)
-    print(Ilosc_znakow)
 
     Ile_duzych=0
     Ile_malych=0
